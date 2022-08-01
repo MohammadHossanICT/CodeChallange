@@ -23,6 +23,6 @@ class CountryViewControllerTest: XCTestCase {
     }
     
     func testInitialScreen(){
-        assertSnapshot(matching: sut, as: .image())
+        assertSnapshot(matching: sut, as: .image)
     }
 }

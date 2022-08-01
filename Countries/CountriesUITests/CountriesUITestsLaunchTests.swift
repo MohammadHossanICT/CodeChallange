@@ -29,7 +29,10 @@ class CountriesUITestsLaunchTests: XCTestCase {
         tablesQuery.staticTexts["name of country is Albania and population is 2837743"].otherElements.containing(.staticText, identifier:"Albania").element.tap()
         
         XCTAssertTrue(tablesQuery.element.exists)
+        
+        XCUIApplication().tables.staticTexts["name of country is Andorra and population is 77265"].otherElements.containing(.staticText, identifier:"Andorra").element.tap()
                 
+        XCTAssertTrue(tablesQuery.element.exists)
     }
 
 }

@@ -11,7 +11,7 @@
         <!--Countries View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="CountriesViewController" id="BYZ-38-t0r" customClass="CountriesViewController" customModule="VideoStreamingApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CountriesViewController" id="BYZ-38-t0r" customClass="CountriesViewController" customModule="Countries" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -20,15 +20,15 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="qW2-Gw-gWz" customClass="CountryTableViewCell" customModule="VideoStreamingApp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="44.5" width="414" height="126"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="qW2-Gw-gWz" customClass="CountryTableViewCell" customModule="Countries" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="127.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qW2-Gw-gWz" id="jMn-8X-T4a">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="126"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="127.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="jvp-sJ-LU5">
-                                                    <rect key="frame" x="5" y="5" width="404" height="116"/>
+                                                    <rect key="frame" x="5" y="5" width="404" height="117.5"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EpL-MQ-sIt">
                                                             <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -40,7 +40,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o7y-pd-Twj">
-                                                            <rect key="frame" x="0.0" y="60" width="50" height="56"/>
+                                                            <rect key="frame" x="0.0" y="60" width="50" height="57.5"/>
                                                             <accessibility key="accessibilityConfiguration">
                                                                 <bool key="isElement" value="NO"/>
                                                             </accessibility>

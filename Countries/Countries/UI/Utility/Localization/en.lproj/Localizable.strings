@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+ Countries
+
+  Created by Mohammad  on 31/08/22
+  
+*/
+
+// Titles
+
+"alert" = "Alert";
+"country" = "Country";
+
+// Accessibility
+
+// API Errors
+"empty_response" = "Empty Response";
+"request_failed" = "Request Failed";
+"invalid_data" = "Invalid Data";
+"response_unsucessful" = "Response Unsucessful";
+"parsing_failed" = "Data Parsing Failed";

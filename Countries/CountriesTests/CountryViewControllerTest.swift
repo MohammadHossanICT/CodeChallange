@@ -26,7 +26,7 @@ class CountryViewControllerTest: XCTestCase {
         assertSnapshot(matching: sut, as: .image)
     }
     
-    func test_loginViewControllerDefaultState() {
+    func test_CountriesViewControllerDefaultState() {
         let viewController = UINavigationController(rootViewController: CountriesViewController())
         verifyViewController(viewController, named: "Default")
     }

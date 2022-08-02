@@ -22,5 +22,24 @@ class CountriesUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
     
-    
+    func testTableViewCellText() {
+        
+        
+        let app = XCUIApplication()
+        app.launch()
+        
+        let firstTableViewCellText =  app.tables.staticTexts["name of country is Åland Islands and population is 28875"].otherElements.containing(.staticText, identifier:"Åland Islands")
+        
+        XCTAssertTrue(firstTableViewCellText.element.exists)
+        
+        let secondTableViewCellText =  app.tables.staticTexts["name of country is Åland Islands and population is 28875"].otherElements.containing(.staticText, identifier:"Åland Islands")
+                
+        XCTAssertTrue(secondTableViewCellText.element.exists)
+        
+        let thirdTableViewCellText =   app.tables.staticTexts["name of country is Albania and population is 2837743"].otherElements.containing(.staticText, identifier:"Albania")
+           
+        XCTAssertTrue(thirdTableViewCellText.element.exists)
+
+                                
+    }
 }

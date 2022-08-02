@@ -25,4 +25,24 @@ class CountryViewControllerTest: XCTestCase {
     func testInitialScreen(){
         assertSnapshot(matching: sut, as: .image)
     }
+    
+    func test_loginViewControllerDefaultState() {
+        let viewController = UINavigationController(rootViewController: CountriesViewController())
+        verifyViewController(viewController, named: "Default")
+    }
+    
+    private func verifyViewController(_ viewController: UIViewController, named: String) {
+        let devices: [String: ViewImageConfig] = ["iPhoneX": .iPhoneX,
+                                                  "iPhone8": .iPhone8,
+                                                  "iPhoneSE": .iPhoneSe]
+        
+        let results = devices.map { device in
+            verifySnapshot(matching: viewController,
+                           as: .image(on: device.value),
+                           named: "\(named)-\(device.key)",
+                           testName: "CountriesViewController")
+        }
+        
+        results.forEach { XCTAssertNil($0) }
+    }
 }

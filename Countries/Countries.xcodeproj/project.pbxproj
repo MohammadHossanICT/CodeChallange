@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0470D4A32897665F00C28058 /* CountriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0470D4A22897665F00C28058 /* CountriesUITests.swift */; };
 		0470D4A52897666000C28058 /* CountriesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0470D4A42897666000C28058 /* CountriesUITestsLaunchTests.swift */; };
-		0470D4C428976BB500C28058 /* CountriesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0470D4C328976BB500C28058 /* CountriesRepository.swift */; };
 		0470D4FF2897B53700C28058 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0470D4DB2897B53700C28058 /* Country.swift */; };
 		0470D5022897B53700C28058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0470D4E22897B53700C28058 /* Assets.xcassets */; };
 		0470D5032897B53700C28058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0470D4E32897B53700C28058 /* LaunchScreen.storyboard */; };
@@ -69,7 +68,6 @@
 		0470D49E2897665F00C28058 /* CountriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0470D4A22897665F00C28058 /* CountriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesUITests.swift; sourceTree = "<group>"; };
 		0470D4A42897666000C28058 /* CountriesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		0470D4C328976BB500C28058 /* CountriesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesRepository.swift; sourceTree = "<group>"; };
 		0470D4DB2897B53700C28058 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		0470D4E22897B53700C28058 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0470D4E42897B53700C28058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -164,7 +162,6 @@
 		0470D4802897665D00C28058 /* Countries */ = {
 			isa = PBXGroup;
 			children = (
-				0470D4C228976B9900C28058 /* Repositories */,
 				0470D4E72897B53700C28058 /* Coordinator */,
 				0470D4EB2897B53700C28058 /* Data */,
 				0470D4DA2897B53700C28058 /* Model */,
@@ -193,14 +190,6 @@
 				0470D4A42897666000C28058 /* CountriesUITestsLaunchTests.swift */,
 			);
 			path = CountriesUITests;
-			sourceTree = "<group>";
-		};
-		0470D4C228976B9900C28058 /* Repositories */ = {
-			isa = PBXGroup;
-			children = (
-				0470D4C328976BB500C28058 /* CountriesRepository.swift */,
-			);
-			path = Repositories;
 			sourceTree = "<group>";
 		};
 		0470D4DA2897B53700C28058 /* Model */ = {
@@ -604,7 +593,6 @@
 				0470D5062897B53700C28058 /* MainCoordinator.swift in Sources */,
 				0470D50E2897B53700C28058 /* CountryTableViewCell.swift in Sources */,
 				0470D5112897B53700C28058 /* Alertable.swift in Sources */,
-				0470D4C428976BB500C28058 /* CountriesRepository.swift in Sources */,
 				0470D5042897B53700C28058 /* AppDelegate.swift in Sources */,
 				0470D5122897B53700C28058 /* Storyboardable.swift in Sources */,
 				0470D5052897B53700C28058 /* SceneDelegate.swift in Sources */,

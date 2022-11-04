@@ -35,7 +35,7 @@ class CountryViewControllerTest: XCTestCase {
         let devices: [String: ViewImageConfig] = ["iPhoneX": .iPhoneX,
                                                   "iPhone8": .iPhone8,
                                                   "iPhoneSE": .iPhoneSe,
-                                                  "iPhone14": .iPhoneXr]
+                                                  "iPhoneXr": .iPhoneXr]
         
         let results = devices.map { device in
             verifySnapshot(matching: viewController,

@@ -34,7 +34,8 @@ class CountryViewControllerTest: XCTestCase {
     private func verifyViewController(_ viewController: UIViewController, named: String) {
         let devices: [String: ViewImageConfig] = ["iPhoneX": .iPhoneX,
                                                   "iPhone8": .iPhone8,
-                                                  "iPhoneSE": .iPhoneSe]
+                                                  "iPhoneSE": .iPhoneSe,
+                                                  "iPhone14": .iPhoneXr]
         
         let results = devices.map { device in
             verifySnapshot(matching: viewController,

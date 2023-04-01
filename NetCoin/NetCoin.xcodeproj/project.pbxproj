@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04FC5728297533550024857E /* NetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC5727297533550024857E /* NetworkManagerTests.swift */; };
+		04FC572A2975346D0024857E /* NetworkingMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC57292975346D0024857E /* NetworkingMock.swift */; };
+		04FC572C29755E260024857E /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC572B29755E260024857E /* Networking.swift */; };
+		562B32EE293E4A2000EC94C7 /* SearchCoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562B32ED293E4A2000EC94C7 /* SearchCoinsView.swift */; };
+		562B32F0293E4F2100EC94C7 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562B32EF293E4F2100EC94C7 /* UIApplication.swift */; };
+		562B32F2293F919C00EC94C7 /* NetCoinViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562B32F1293F919C00EC94C7 /* NetCoinViewModelTest.swift */; };
+		562B32F4293F94F500EC94C7 /* NetCoinResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 562B32F3293F94F500EC94C7 /* NetCoinResponse.json */; };
+		562B32F6293F953B00EC94C7 /* FakeNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562B32F5293F953B00EC94C7 /* FakeNetworkManager.swift */; };
+		562B32F8293F9B6700EC94C7 /* DoubleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562B32F7293F9B6700EC94C7 /* DoubleTest.swift */; };
+		56306EAD294CACF000C9BA89 /* FakeNetCoinRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56306EAC294CACF000C9BA89 /* FakeNetCoinRepository.swift */; };
+		56306EAF294CADE600C9BA89 /* NetCoinRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56306EAE294CADE600C9BA89 /* NetCoinRepositoryTests.swift */; };
+		564A206529224B9E0016C1B5 /* NetCoinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A206429224B9E0016C1B5 /* NetCoinApp.swift */; };
+		564A206929224B9F0016C1B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564A206829224B9F0016C1B5 /* Assets.xcassets */; };
+		564A206C29224B9F0016C1B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564A206B29224B9F0016C1B5 /* Preview Assets.xcassets */; };
+		564A208529224B9F0016C1B5 /* NetCoinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A208429224B9F0016C1B5 /* NetCoinUITests.swift */; };
+		564A208729224B9F0016C1B5 /* NetCoinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A208629224B9F0016C1B5 /* NetCoinUITestsLaunchTests.swift */; };
+		564A209429224D130016C1B5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A209329224D130016C1B5 /* NetworkManager.swift */; };
+		564A209729224E340016C1B5 /* NetCoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A209629224E340016C1B5 /* NetCoin.swift */; };
+		564A209A29226D340016C1B5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A209929226D340016C1B5 /* HomeView.swift */; };
+		564A209C29226DC40016C1B5 /* TopMoversView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A209B29226DC40016C1B5 /* TopMoversView.swift */; };
+		564A209E29226DD80016C1B5 /* TopMoversItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A209D29226DD80016C1B5 /* TopMoversItemView.swift */; };
+		564A20A0292281FC0016C1B5 /* AllCoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A209F292281FC0016C1B5 /* AllCoinsView.swift */; };
+		564A20A42922824A0016C1B5 /* CoinCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A20A32922824A0016C1B5 /* CoinCellView.swift */; };
+		564A20A629228DCD0016C1B5 /* NetCoinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A20A529228DCD0016C1B5 /* NetCoinViewModel.swift */; };
+		565C0CE3294A4C5000FCBAF7 /* NetCoinRespository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565C0CE2294A4C5000FCBAF7 /* NetCoinRespository.swift */; };
+		56CDD0552924025B00EC112D /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CDD0542924025B00EC112D /* Endpoint.swift */; };
+		56CDD05B29252EAC00EC112D /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CDD05A29252EAC00EC112D /* Double.swift */; };
+		56CDD05D29268C5400EC112D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CDD05C29268C5400EC112D /* Color.swift */; };
+		56CDD0602926937D00EC112D /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CDD05F2926937D00EC112D /* CircleButtonView.swift */; };
+		56CDD06229269B9000EC112D /* CircleButtonAnimationVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CDD06129269B9000EC112D /* CircleButtonAnimationVIew.swift */; };
+		56D0271829424A62003FCB64 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56D0271A29424A62003FCB64 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		564A207729224B9F0016C1B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 564A205929224B9E0016C1B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 564A206029224B9E0016C1B5;
+			remoteInfo = NetCoin;
+		};
+		564A208129224B9F0016C1B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 564A205929224B9E0016C1B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 564A206029224B9E0016C1B5;
+			remoteInfo = NetCoin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04FC5727297533550024857E /* NetworkManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
+		04FC57292975346D0024857E /* NetworkingMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingMock.swift; sourceTree = "<group>"; };
+		04FC572B29755E260024857E /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		562B32ED293E4A2000EC94C7 /* SearchCoinsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCoinsView.swift; sourceTree = "<group>"; };
+		562B32EF293E4F2100EC94C7 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		562B32F1293F919C00EC94C7 /* NetCoinViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetCoinViewModelTest.swift; sourceTree = "<group>"; };
+		562B32F3293F94F500EC94C7 /* NetCoinResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = NetCoinResponse.json; sourceTree = "<group>"; };
+		562B32F5293F953B00EC94C7 /* FakeNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeNetworkManager.swift; sourceTree = "<group>"; };
+		562B32F7293F9B6700EC94C7 /* DoubleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleTest.swift; sourceTree = "<group>"; };
+		56306EAC294CACF000C9BA89 /* FakeNetCoinRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeNetCoinRepository.swift; sourceTree = "<group>"; };
+		56306EAE294CADE600C9BA89 /* NetCoinRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetCoinRepositoryTests.swift; sourceTree = "<group>"; };
+		564A206129224B9E0016C1B5 /* NetCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		564A206429224B9E0016C1B5 /* NetCoinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetCoinApp.swift; sourceTree = "<group>"; };
+		564A206829224B9F0016C1B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		564A206B29224B9F0016C1B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		564A207629224B9F0016C1B5 /* NetCoinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetCoinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		564A208029224B9F0016C1B5 /* NetCoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetCoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		564A208429224B9F0016C1B5 /* NetCoinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetCoinUITests.swift; sourceTree = "<group>"; };
+		564A208629224B9F0016C1B5 /* NetCoinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetCoinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		564A209329224D130016C1B5 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		564A209629224E340016C1B5 /* NetCoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetCoin.swift; sourceTree = "<group>"; };
+		564A209929226D340016C1B5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		564A209B29226DC40016C1B5 /* TopMoversView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoversView.swift; sourceTree = "<group>"; };
+		564A209D29226DD80016C1B5 /* TopMoversItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoversItemView.swift; sourceTree = "<group>"; };
+		564A209F292281FC0016C1B5 /* AllCoinsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCoinsView.swift; sourceTree = "<group>"; };
+		564A20A32922824A0016C1B5 /* CoinCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCellView.swift; sourceTree = "<group>"; };
+		564A20A529228DCD0016C1B5 /* NetCoinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetCoinViewModel.swift; sourceTree = "<group>"; };
+		565C0CE2294A4C5000FCBAF7 /* NetCoinRespository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetCoinRespository.swift; sourceTree = "<group>"; };
+		56CDD0542924025B00EC112D /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		56CDD05A29252EAC00EC112D /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		56CDD05C29268C5400EC112D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		56CDD05F2926937D00EC112D /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
+		56CDD06129269B9000EC112D /* CircleButtonAnimationVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationVIew.swift; sourceTree = "<group>"; };
+		56D0271929424A62003FCB64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		564A205E29224B9E0016C1B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564A207329224B9F0016C1B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564A207D29224B9F0016C1B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04FC5726297533310024857E /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				04FC57292975346D0024857E /* NetworkingMock.swift */,
+				04FC5727297533550024857E /* NetworkManagerTests.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		56306EA8294CA92E00C9BA89 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				562B32F7293F9B6700EC94C7 /* DoubleTest.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		56306EA9294CAA3400C9BA89 /* VeiwModel */ = {
+			isa = PBXGroup;
+			children = (
+				562B32F1293F919C00EC94C7 /* NetCoinViewModelTest.swift */,
+				56306EAC294CACF000C9BA89 /* FakeNetCoinRepository.swift */,
+			);
+			path = VeiwModel;
+			sourceTree = "<group>";
+		};
+		56306EAA294CAA4000C9BA89 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				56306EAB294CAB0000C9BA89 /* json */,
+				562B32F5293F953B00EC94C7 /* FakeNetworkManager.swift */,
+				56306EAE294CADE600C9BA89 /* NetCoinRepositoryTests.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		56306EAB294CAB0000C9BA89 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				562B32F3293F94F500EC94C7 /* NetCoinResponse.json */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		56306EB0294CAFBB00C9BA89 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				564A206429224B9E0016C1B5 /* NetCoinApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		564A205829224B9E0016C1B5 = {
+			isa = PBXGroup;
+			children = (
+				56D0271A29424A62003FCB64 /* Localizable.strings */,
+				564A206329224B9E0016C1B5 /* NetCoin */,
+				564A207929224B9F0016C1B5 /* NetCoinTests */,
+				564A208329224B9F0016C1B5 /* NetCoinUITests */,
+				564A206229224B9E0016C1B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		564A206229224B9E0016C1B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				564A206129224B9E0016C1B5 /* NetCoin.app */,
+				564A207629224B9F0016C1B5 /* NetCoinTests.xctest */,
+				564A208029224B9F0016C1B5 /* NetCoinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		564A206329224B9E0016C1B5 /* NetCoin */ = {
+			isa = PBXGroup;
+			children = (
+				56306EB0294CAFBB00C9BA89 /* App */,
+				565C0CE1294A4C2B00FCBAF7 /* Respository */,
+				56CDD05929252E9800EC112D /* Extensions */,
+				56CDD0402922955800EC112D /* ViewModel */,
+				564A209829226D0A0016C1B5 /* Views */,
+				564A209529224E0E0016C1B5 /* NetworkLayer */,
+				564A206829224B9F0016C1B5 /* Assets.xcassets */,
+				564A206A29224B9F0016C1B5 /* Preview Content */,
+			);
+			path = NetCoin;
+			sourceTree = "<group>";
+		};
+		564A206A29224B9F0016C1B5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				564A206B29224B9F0016C1B5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		564A207929224B9F0016C1B5 /* NetCoinTests */ = {
+			isa = PBXGroup;
+			children = (
+				04FC5726297533310024857E /* NetworkLayer */,
+				56306EA8294CA92E00C9BA89 /* Extension */,
+				56306EA9294CAA3400C9BA89 /* VeiwModel */,
+				56306EAA294CAA4000C9BA89 /* Repository */,
+			);
+			path = NetCoinTests;
+			sourceTree = "<group>";
+		};
+		564A208329224B9F0016C1B5 /* NetCoinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				564A208429224B9F0016C1B5 /* NetCoinUITests.swift */,
+				564A208629224B9F0016C1B5 /* NetCoinUITestsLaunchTests.swift */,
+			);
+			path = NetCoinUITests;
+			sourceTree = "<group>";
+		};
+		564A209529224E0E0016C1B5 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				564A209329224D130016C1B5 /* NetworkManager.swift */,
+				564A209629224E340016C1B5 /* NetCoin.swift */,
+				56CDD0542924025B00EC112D /* Endpoint.swift */,
+				04FC572B29755E260024857E /* Networking.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		564A209829226D0A0016C1B5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				56CDD05E2926935E00EC112D /* Components */,
+				564A209929226D340016C1B5 /* HomeView.swift */,
+				564A209B29226DC40016C1B5 /* TopMoversView.swift */,
+				564A209D29226DD80016C1B5 /* TopMoversItemView.swift */,
+				564A209F292281FC0016C1B5 /* AllCoinsView.swift */,
+				564A20A32922824A0016C1B5 /* CoinCellView.swift */,
+				562B32ED293E4A2000EC94C7 /* SearchCoinsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		565C0CE1294A4C2B00FCBAF7 /* Respository */ = {
+			isa = PBXGroup;
+			children = (
+				565C0CE2294A4C5000FCBAF7 /* NetCoinRespository.swift */,
+			);
+			path = Respository;
+			sourceTree = "<group>";
+		};
+		56CDD0402922955800EC112D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				564A20A529228DCD0016C1B5 /* NetCoinViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		56CDD05929252E9800EC112D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				56CDD05A29252EAC00EC112D /* Double.swift */,
+				56CDD05C29268C5400EC112D /* Color.swift */,
+				562B32EF293E4F2100EC94C7 /* UIApplication.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		56CDD05E2926935E00EC112D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				56CDD05F2926937D00EC112D /* CircleButtonView.swift */,
+				56CDD06129269B9000EC112D /* CircleButtonAnimationVIew.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		564A206029224B9E0016C1B5 /* NetCoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564A208A29224B9F0016C1B5 /* Build configuration list for PBXNativeTarget "NetCoin" */;
+			buildPhases = (
+				564A205D29224B9E0016C1B5 /* Sources */,
+				564A205E29224B9E0016C1B5 /* Frameworks */,
+				564A205F29224B9E0016C1B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetCoin;
+			packageProductDependencies = (
+			);
+			productName = NetCoin;
+			productReference = 564A206129224B9E0016C1B5 /* NetCoin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		564A207529224B9F0016C1B5 /* NetCoinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564A208D29224B9F0016C1B5 /* Build configuration list for PBXNativeTarget "NetCoinTests" */;
+			buildPhases = (
+				564A207229224B9F0016C1B5 /* Sources */,
+				564A207329224B9F0016C1B5 /* Frameworks */,
+				564A207429224B9F0016C1B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				564A207829224B9F0016C1B5 /* PBXTargetDependency */,
+			);
+			name = NetCoinTests;
+			productName = NetCoinTests;
+			productReference = 564A207629224B9F0016C1B5 /* NetCoinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		564A207F29224B9F0016C1B5 /* NetCoinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564A209029224B9F0016C1B5 /* Build configuration list for PBXNativeTarget "NetCoinUITests" */;
+			buildPhases = (
+				564A207C29224B9F0016C1B5 /* Sources */,
+				564A207D29224B9F0016C1B5 /* Frameworks */,
+				564A207E29224B9F0016C1B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				564A208229224B9F0016C1B5 /* PBXTargetDependency */,
+			);
+			name = NetCoinUITests;
+			productName = NetCoinUITests;
+			productReference = 564A208029224B9F0016C1B5 /* NetCoinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		564A205929224B9E0016C1B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					564A206029224B9E0016C1B5 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					564A207529224B9F0016C1B5 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 564A206029224B9E0016C1B5;
+					};
+					564A207F29224B9F0016C1B5 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 564A206029224B9E0016C1B5;
+					};
+				};
+			};
+			buildConfigurationList = 564A205C29224B9E0016C1B5 /* Build configuration list for PBXProject "NetCoin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 564A205829224B9E0016C1B5;
+			packageReferences = (
+			);
+			productRefGroup = 564A206229224B9E0016C1B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				564A206029224B9E0016C1B5 /* NetCoin */,
+				564A207529224B9F0016C1B5 /* NetCoinTests */,
+				564A207F29224B9F0016C1B5 /* NetCoinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		564A205F29224B9E0016C1B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564A206C29224B9F0016C1B5 /* Preview Assets.xcassets in Resources */,
+				56D0271829424A62003FCB64 /* Localizable.strings in Resources */,
+				564A206929224B9F0016C1B5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564A207429224B9F0016C1B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562B32F4293F94F500EC94C7 /* NetCoinResponse.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564A207E29224B9F0016C1B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		564A205D29224B9E0016C1B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564A209C29226DC40016C1B5 /* TopMoversView.swift in Sources */,
+				564A20A629228DCD0016C1B5 /* NetCoinViewModel.swift in Sources */,
+				564A209729224E340016C1B5 /* NetCoin.swift in Sources */,
+				04FC572C29755E260024857E /* Networking.swift in Sources */,
+				56CDD0552924025B00EC112D /* Endpoint.swift in Sources */,
+				564A209A29226D340016C1B5 /* HomeView.swift in Sources */,
+				56CDD06229269B9000EC112D /* CircleButtonAnimationVIew.swift in Sources */,
+				565C0CE3294A4C5000FCBAF7 /* NetCoinRespository.swift in Sources */,
+				564A20A42922824A0016C1B5 /* CoinCellView.swift in Sources */,
+				56CDD05B29252EAC00EC112D /* Double.swift in Sources */,
+				562B32F0293E4F2100EC94C7 /* UIApplication.swift in Sources */,
+				56CDD05D29268C5400EC112D /* Color.swift in Sources */,
+				56CDD0602926937D00EC112D /* CircleButtonView.swift in Sources */,
+				564A209429224D130016C1B5 /* NetworkManager.swift in Sources */,
+				564A209E29226DD80016C1B5 /* TopMoversItemView.swift in Sources */,
+				564A20A0292281FC0016C1B5 /* AllCoinsView.swift in Sources */,
+				564A206529224B9E0016C1B5 /* NetCoinApp.swift in Sources */,
+				562B32EE293E4A2000EC94C7 /* SearchCoinsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564A207229224B9F0016C1B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FC5728297533550024857E /* NetworkManagerTests.swift in Sources */,
+				56306EAF294CADE600C9BA89 /* NetCoinRepositoryTests.swift in Sources */,
+				562B32F2293F919C00EC94C7 /* NetCoinViewModelTest.swift in Sources */,
+				56306EAD294CACF000C9BA89 /* FakeNetCoinRepository.swift in Sources */,
+				562B32F8293F9B6700EC94C7 /* DoubleTest.swift in Sources */,
+				04FC572A2975346D0024857E /* NetworkingMock.swift in Sources */,
+				562B32F6293F953B00EC94C7 /* FakeNetworkManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564A207C29224B9F0016C1B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564A208529224B9F0016C1B5 /* NetCoinUITests.swift in Sources */,
+				564A208729224B9F0016C1B5 /* NetCoinUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		564A207829224B9F0016C1B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 564A206029224B9E0016C1B5 /* NetCoin */;
+			targetProxy = 564A207729224B9F0016C1B5 /* PBXContainerItemProxy */;
+		};
+		564A208229224B9F0016C1B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 564A206029224B9E0016C1B5 /* NetCoin */;
+			targetProxy = 564A208129224B9F0016C1B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56D0271A29424A62003FCB64 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56D0271929424A62003FCB64 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		564A208829224B9F0016C1B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		564A208929224B9F0016C1B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		564A208B29224B9F0016C1B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NetCoin/Preview Content\"";
+				DEVELOPMENT_TEAM = 3TN46PLRBH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.it.mac.NetCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		564A208C29224B9F0016C1B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NetCoin/Preview Content\"";
+				DEVELOPMENT_TEAM = 3TN46PLRBH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.it.mac.NetCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		564A208E29224B9F0016C1B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.it.mac.NetCoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetCoin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NetCoin";
+			};
+			name = Debug;
+		};
+		564A208F29224B9F0016C1B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.it.mac.NetCoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetCoin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NetCoin";
+			};
+			name = Release;
+		};
+		564A209129224B9F0016C1B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.it.mac.NetCoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetCoin;
+			};
+			name = Debug;
+		};
+		564A209229224B9F0016C1B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.it.mac.NetCoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetCoin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		564A205C29224B9E0016C1B5 /* Build configuration list for PBXProject "NetCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564A208829224B9F0016C1B5 /* Debug */,
+				564A208929224B9F0016C1B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564A208A29224B9F0016C1B5 /* Build configuration list for PBXNativeTarget "NetCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564A208B29224B9F0016C1B5 /* Debug */,
+				564A208C29224B9F0016C1B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564A208D29224B9F0016C1B5 /* Build configuration list for PBXNativeTarget "NetCoinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564A208E29224B9F0016C1B5 /* Debug */,
+				564A208F29224B9F0016C1B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564A209029224B9F0016C1B5 /* Build configuration list for PBXNativeTarget "NetCoinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564A209129224B9F0016C1B5 /* Debug */,
+				564A209229224B9F0016C1B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 564A205929224B9E0016C1B5 /* Project object */;
+}
